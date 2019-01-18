@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>websockets client</title>
+	<script type="text/javascript" src="js/simplewebsocket.min.js"></script>
+	<script type="text/javascript" src="js/client.js"></script>
+	<script type="text/javascript" src="js/terminal.js"></script>
+	<link rel="stylesheet" href="css/colors.min.css">
+	<style type="text/css">
+
+		body {
+			font-family: monospace;
+			margin: 2rem;
+		}
+
+		strong {
+			font-weight: normal;
+			color: #FFFFFF;
+		}
+
+	</style>
+</head>
+<body class="bg-black gray">
+
+	<div id="terminal_container">
+		<p><strong>websockets client</strong></p>
+	</div>
+
+
+
+
+<script>
+
+	client = new Client('123');
+	terminal = new Terminal('terminal_container');
+
+
+/*
+	console.log("Connecting...");
+	socket = new SimpleWebsocket('wss://rumorsmatrix.com:8080');
+
+
+	socket.on('connect', function() {
+		console.log("Connected.");
+	})
+
+	socket.on('close', function() {
+		console.log("Disconnected.");
+	})
+
+
+	socket.on('error', function(err) {
+		console.log(err);
+	});
+
+	socket.on('data', function(data) {
+		console.log("Recieved: " + data);
+	});
+
+*/
+
+
+//socket.send(data)
+
+
+
+
+</script>
+</body>
+</html>

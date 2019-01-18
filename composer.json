@@ -1,0 +1,5 @@
+{
+    "require": {
+        "vakata/websocket": "^1.0"
+    }
+}
